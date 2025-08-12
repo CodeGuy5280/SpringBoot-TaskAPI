@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Data // Provides getters, setters, toString, equals, and hashCode
 @NoArgsConstructor // Creates a no-argument constructor
 @AllArgsConstructor // Creates a constructor with all arguments
-@Document(collection = "/tasks")
+@Document(collection = "tasks")
 public class Task {
     @Id
     private String id;
